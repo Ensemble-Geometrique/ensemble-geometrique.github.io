@@ -1,7 +1,8 @@
 ---
 ---
 
-@import index
+@use "sass:color"
+@use "variables" as *
 
 html
   padding: 0
@@ -21,10 +22,10 @@ body > article
   max-width: 50em
 
 aside
-  display: block!important
+  display: block !important
   position: fixed
   overflow: auto
-  background: darken($dark, 2%)
+  background: color.adjust($dark, $lightness: -2%)
   color: #fff
   padding: 2.25em
   width: 12em
@@ -44,12 +45,12 @@ nav a
   padding: .5em 2.25em
 
 nav a:hover, nav a.selected
-  background: lighten($dark, 2%)
+  background: color.adjust($dark, $lightness: 2%)
   text-decoration: inherit
 
 .icon
   margin-right: 1.2em
-  color: inherit!important
+  color: inherit !important
 
 .description
   margin: 2em 0
