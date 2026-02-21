@@ -13,7 +13,7 @@ layout: post
 
 チケットに関しては
 
-- Teket: <https://teket.jp/11370/xxxxx>
+- Teket: <https://teket.jp/11370/64254>
 
 をご覧いただき、必要枚数分お申し込みいただけますと幸いです．
 
